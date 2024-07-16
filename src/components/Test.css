@@ -1,0 +1,21 @@
+.navigation {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.navDiv {
+  background-color: green;
+}
+
+img {
+  width: 180px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+}
