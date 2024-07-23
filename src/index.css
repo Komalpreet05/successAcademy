@@ -4,6 +4,10 @@
   --white: #fff;
   --body-background: #f5f5f5;
   --btn-text: #212121;
+  --title-text: #212ea0;
+  --title-head: #000f38;
+  --about-desc: #676767;
+  --contact-back: #ebecfe;
 }
 
 * {
@@ -38,4 +42,18 @@ a {
   cursor: pointer;
   border: none;
   outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn {
+    padding: 14px 20px;
+  }
 }

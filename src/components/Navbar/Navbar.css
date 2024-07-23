@@ -22,3 +22,53 @@
   margin: 5px 20px;
   font-size: 16px;
 }
+
+.darkNav {
+  background: var(--title-text);
+  transition: 0.5s;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/*media*********/
+@media (max-width: 1000px) {
+  .logo {
+    width: 140px;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  nav {
+    padding: 15px 0;
+  }
+  nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: var(--title-text);
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+    bottom: 0;
+  }
+
+  .nav-links li {
+    display: block;
+    margin: 25px 40px;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+  }
+  /* .btn-nav {
+    width: 165px;
+  } */
+}
